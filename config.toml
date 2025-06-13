@@ -1,4 +1,4 @@
-baseURL = "journey-docs/"
+baseURL = "/"
 theme = "hugo-whisper-theme"
 languageCode = "en-us"
 title = "Journey Migrations"
@@ -14,7 +14,7 @@ pygmentsUseClasses = true
 
 [caches]
   [caches.images]
-    dir = ":cacheDir/images"
+    dir = ":cacheDir/journey-docs/images"
     
 # Controls how many words are printed in the content summary on the docs homepage.
 # See https://gohugo.io/content-management/summaries/
