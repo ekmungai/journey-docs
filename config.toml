@@ -1,5 +1,5 @@
 baseURL = "/"
-theme = "hugo-whisper-theme"
+theme = ["https://github.com/zerostaticthemes/hugo-whisper-theme"]
 languageCode = "en-us"
 title = "Journey Migrations"
 
