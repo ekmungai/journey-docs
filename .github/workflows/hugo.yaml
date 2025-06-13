@@ -62,9 +62,7 @@ jobs:
           restore-keys:
             hugo-
       - name: Configure Git
-        run: git config core.quotepath false
-      - name: Update theme
-        run: cd themes/hugo-whisper-theme && git pull && cd ../.. 
+        run: git config core.quotepath false 
       - name: Build with Hugo
         run: |
           hugo \
