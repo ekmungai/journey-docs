@@ -64,7 +64,7 @@ jobs:
       - name: Configure Git
         run: git config core.quotepath false
       - name: Update theme
-        run: git pull themes/hugo-whisper-theme 
+        run: cd themes/hugo-whisper-theme && git pull && cd ../.. 
       - name: Build with Hugo
         run: |
           hugo \
