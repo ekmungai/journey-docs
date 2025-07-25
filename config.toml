@@ -32,7 +32,7 @@ summaryLength = 30
 
 [params]
   google_analytics_id=""
-  homepage_button_link = '/docs'
+  homepage_button_link = '/journey-docs'
   homepage_button_text = 'Read The Docs'
   homepage_intro = 'Journey is a script based database migration tool providing on stepwise changes.'
   homepage_image = '/journey-docs/images/route.gif'
