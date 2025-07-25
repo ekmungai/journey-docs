@@ -4,7 +4,7 @@ date: 2018-11-28T15:14:39+10:00
 weight: 7
 ---
 ```
-journey validate -p "path\to\versions\{versionNumber}.sql" -d sqlite -c "Data Source=journal.db"
+journey validate -p "path\to\versions-dir" -d sqlite -c "Data Source=journal.db"
 ```
 Calling validate on a migration file ensures that:
 1. All Transaction blocks are properly opened and closed.

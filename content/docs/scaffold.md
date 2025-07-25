@@ -6,7 +6,7 @@ heading: 'Commands'
 ---
 
 ```
-journey scaffold -p "path\to\versions" -d sqlite -c "Data Source=journal.db"
+journey scaffold -p "path\to\versions-dir" -d sqlite -c "Data Source=journal.db"
 ```
 Scaffolding is the process of preparing a blank migration file in preparation for the next version. The command will create a file with the next version number as the file number and the follwing content:
 
